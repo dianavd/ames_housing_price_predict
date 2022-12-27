@@ -1,11 +1,11 @@
-Ames Housing Price Prediction Project
+## Ames Housing Price Prediction Project
 This repository explains the Ames Housing Price Prediction Project's data analysis and modeling process in Python.
 
-Introduction
+### Introduction
 Buying and/or investing in real estate market are one of the biggest decisions people make. It is important to make good real estate investments/purchase. We need to know whether a house is priced fairly or even underpriced. 
 I will use the Kaggle dataset to predict housing sale prices. The dataset contains 2580 records with 79 attributes for 2006-2010 years with detailed information about the house attributes, along with the sale prices. In my analysis, I predicted the price of Ames homes based on various predictors such as ‘OverallQual’, ‘GrLivArea’, ‘GarageCars’, ‘GarageArea’, ‘TotalBsmtSF’, ‘1stFlSF’, ‘YEarBuilt’, ‘FullBath’, etc.
 
-Project description
+### Project description
 This project aims to analyze and predict the price of Ames Housing market.
 Source of the data: https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/overview
 I was inspired to work on this project because of its relevance to almost everyone. People buy homes and invest in real estate. So, exploring how these home pricing models work is practical and exciting, which gives a better understanding of home prices. Furthermore, this real-world problem project greatly applies data science and machine learning techniques.
@@ -33,7 +33,8 @@ As a preparation to fit a machine model I removed outliers. Also, in order to pe
 
 Modeling
 After completing the data preprocessing, exploratory data analysis and feature engineering, I built a few machine learning models. Models were selected based on which were most likely to have the highest accuracy. I selected three models, including Linear Regression, KNN, Decision Tree. I conducted a train and test split of 30% of the dataset. Each model was trained on the training split, and grid search and cross-validation, and to find optimal parameters for tree-based models. 
-During the model evaluation phase, linear regression model demonstrated highest R2 score. 
+During the model evaluation phase, linear regression model demonstrated highest R2 score.
+
 Conclusions
 My goal was to fit a model to predict the Sale Price of homes in Ames, Iowa. After trying to fit a few models, including Linear Regression, KNN, Decision Tree, I found out that 
 Linear Regression is the best ML model for Ames Housing price prediction with R2 91.47% . 
@@ -44,8 +45,8 @@ Perform the model's refinement to improve accuracy. For example, consider the in
 Incorporate additional features.
 Multiple models could be assembled for greater machine learning power.
 
- Resources:
-The dataset in Kaggle: https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/overview
-https://towardsdatascience.com/
-"Practical Statistics for Data Scientists 50 Essential Concepts", by Peter Bruce & Andrew Bruce, 2017, O'REILLY
-"Machine Learning Mastery with R", by Jason Brownlee, 2016
+Resources:
+- The dataset in Kaggle: https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/overview
+- https://towardsdatascience.com/
+- "Practical Statistics for Data Scientists 50 Essential Concepts", by Peter Bruce & Andrew Bruce, 2017, O'REILLY
+- "Machine Learning Mastery with R", by Jason Brownlee, 2016
