@@ -48,5 +48,6 @@ Multiple models could be assembled for greater machine learning power.
 ### Resources:
 - The dataset in Kaggle: https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/overview
 - https://towardsdatascience.com/
+- https://nycdatascience.com/blog/
 - "Practical Statistics for Data Scientists 50 Essential Concepts", by Peter Bruce & Andrew Bruce, 2017, O'REILLY
 - "Machine Learning Mastery with R", by Jason Brownlee, 2016
